@@ -11,7 +11,7 @@ class Artist
  
 
   @@artists = []
-
+module 
   def initialize
     self.class.all << self 
     @songs = []
